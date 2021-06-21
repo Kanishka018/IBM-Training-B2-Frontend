@@ -1,0 +1,58 @@
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Check Eligiblity
+</button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Check Eligibility</h5>
+          <button type="button" class="btn-close"  data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form >
+            <div class="form-group">
+              <label>Name:</label>
+              <input name="name" required  class="form-control" required  > 
+            </div>
+            <br>
+            
+            <div class="form-group">
+                <label>Mobile Number:</label>
+                <input type="phone" name="phone" class="form-control" >
+            </div>
+            <br>
+  
+            <div class="form-group">
+              <label>Gross Monthly Income:</label>
+              <input name="income" class="form-control" required  > 
+            </div>
+            <br>
+  
+            <div class="form-group">
+              <label>Loan Amount Required:</label>
+              <input name="amount" class="form-control" required  > 
+            </div>
+            <br>
+  
+            <div class="form-group">
+              <label>Loan Tenure(Years):</label>
+              <input name="tenure" class="form-control" required  > 
+            </div>
+            <br>
+  
+            <div class="form-group">
+              <label>Other EMIs(if any):</label>
+              <input name="emi" class="form-control" required  > 
+            </div>
+        </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">GET A CALLBACK</button>
+        </div>
+      </div>
+    </div>
+  </div>

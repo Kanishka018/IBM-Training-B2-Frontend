@@ -1,0 +1,22 @@
+p{
+    font-weight: bolder;
+    font-size : 22px;
+    font-family: 'Frank Ruhl Libre', serif;
+
+}
+
+h1{
+    background-color: rgb(62, 14, 117);
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+}
+li{
+    list-style: none;
+}
+ul{
+    list-style: none;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+

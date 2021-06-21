@@ -1,0 +1,24 @@
+#aboutus{
+    background-color: rgb(216, 211, 211);
+}
+
+#sec{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    
+}
+h4{
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: bolder;
+}
+
+img{
+    position: relative;
+    left: 50px;
+}
+#AU{
+    position: relative;
+    right: 200px;
+}
+    

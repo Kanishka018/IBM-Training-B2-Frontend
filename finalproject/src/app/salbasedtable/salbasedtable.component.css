@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+table{
+    border: 2px solid black;
+   
+    padding: 20px 40px;
+    vertical-align: top;
+}
+.columns{
+    flex: 50%;
+    padding: 20px;
+}
+.thead-dark{
+    background-color: rgb(54, 54, 129);
+    padding: 20px;
+}
+th{
+    color: white;
+}
+
+h2{
+    background-color:rgb(62, 14, 117);
+    color: white;
+}

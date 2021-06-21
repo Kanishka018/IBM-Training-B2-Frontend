@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.emi-holder{
+    display:flex;
+    gap:10px;
+    justify-content: center;
+    
+    background-image: url('C:\Users\PoojaBhardwaj\Desktop\my angular folder\FinalProject\src\assets\images\s5.png');
+    background-size: cover;
+}
+.calculator,.results{
+    width: 30%;
+}
+.card{
+    background-color: #0c0d29;
+    padding: 30px;
+    color:white;
+}
+h1{
+    text-align: center;
+}
+input{
+    width:100%;
+    height:40px;
+    color:black;
+}
+.button{
+    display:flex;
+    justify-content: center;
+}
+.btn{
+    background-color: #181934;
+    color:white;
+    padding:10px 30px;
+    letter-spacing:3px;
+}
